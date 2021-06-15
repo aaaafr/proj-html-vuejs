@@ -44,6 +44,24 @@
                 }
             };
         }
+        .order{
+            padding-top: 40px;
+            button{
+                background-color:$header_button;
+                border-style: none;
+                padding: 10px 20px 10px 20px;
+                font-size: 12px;
+                border-radius: 20px;
+
+                a{
+                    text-decoration: none;
+                    color:$header_white;
+                }
+                i{
+                    color:$header_white;
+                }
+            }
+        }
     }
 
 }

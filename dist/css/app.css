@@ -14,7 +14,7 @@ body {
 }
 
 .site_header {
-  background-image: url(/dist/img/home-background-hero-scaled.jpg);
+  background-image: url("/dist/img/home-background-hero-scaled.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 900px;
@@ -109,4 +109,21 @@ body {
 }
 .site_main .popular .pics p span {
   color: black;
+}
+.site_main .popular .order {
+  padding-top: 40px;
+}
+.site_main .popular .order button {
+  background-color: #CE1A26;
+  border-style: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 12px;
+  border-radius: 20px;
+}
+.site_main .popular .order button a {
+  text-decoration: none;
+  color: white;
+}
+.site_main .popular .order button i {
+  color: white;
 }
