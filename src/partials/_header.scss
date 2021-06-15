@@ -1,0 +1,61 @@
+.site_header{
+    background-image: url(/dist/img/home-background-hero-scaled.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1578px;
+
+    .site_menu{
+        padding-top:30px;
+        display: flex;
+        justify-content: space-between;
+
+        .navbar {
+            display: flex;
+
+            ul {
+                color:aliceblue;
+                list-style: none;
+                li{
+                    padding: 20px;
+
+                }
+            }
+        }
+    }
+    .title{
+        padding-top:150px;
+
+        h3{
+            color:$header_white;
+            font-size: 30px;
+            font-weight: 400;
+        }
+        h1{
+            color:$header_white;
+            font-size: 70px;
+            font-weight: 600;
+        }
+
+        #yellow {
+            color:$header_title;
+        }
+
+        .button{
+            padding-top: 40px;
+
+            button{
+                background-color:$header_button;
+                border-style: none;
+                padding: 10px 20px 10px 20px;
+                font-size: 12px;
+                border-radius: 20px;
+                a{
+                    text-decoration: none;
+                    color: $header_white;
+                }
+            }
+        }
+    }
+
+
+}
