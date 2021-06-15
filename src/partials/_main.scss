@@ -1,0 +1,49 @@
+.site_main {
+    .info{
+        background-color:$header_white;
+        position: relative;
+        bottom: 50px;
+        padding: 40px;
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
+            font-size:12px;
+            font-weight: 600;
+
+            li{
+                color:$info_color;
+                i{
+                    padding-right:5px;
+                }
+            }
+        }
+    }
+    .popular{
+        text-align: center;
+        h1{
+            padding-top: 30px;
+        }
+        .pics{
+            display: flex;
+            justify-content: center;
+            width:100%;
+            padding-top: 30px;
+            img{
+                width: calc(100% - 20px);
+            }
+            h4{
+                padding:10px;
+                font-size: 20px;
+                font-weight: 500;
+            }
+            p{
+                color:$header_button;
+                span{
+                    color:black;
+                }
+            };
+        }
+    }
+
+}

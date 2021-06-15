@@ -17,7 +17,7 @@ body {
   background-image: url(/dist/img/home-background-hero-scaled.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 1578px;
+  height: 900px;
 }
 .site_header .site_menu {
   padding-top: 30px;
@@ -63,4 +63,50 @@ body {
 .site_header .title .button button a {
   text-decoration: none;
   color: white;
+}
+
+.site_main .info {
+  background-color: white;
+  position: relative;
+  bottom: 50px;
+  padding: 40px;
+}
+.site_main .info ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  font-size: 12px;
+  font-weight: 600;
+}
+.site_main .info ul li {
+  color: #5B5F67;
+}
+.site_main .info ul li i {
+  padding-right: 5px;
+}
+.site_main .popular {
+  text-align: center;
+}
+.site_main .popular h1 {
+  padding-top: 30px;
+}
+.site_main .popular .pics {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 30px;
+}
+.site_main .popular .pics img {
+  width: calc(100% - 20px);
+}
+.site_main .popular .pics h4 {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.site_main .popular .pics p {
+  color: #CE1A26;
+}
+.site_main .popular .pics p span {
+  color: black;
 }
