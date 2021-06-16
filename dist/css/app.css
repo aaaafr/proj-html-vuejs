@@ -14,7 +14,7 @@ body {
 }
 
 .site_header {
-  background-image: url("/dist/img/home-background-hero-scaled.jpg");
+  background-image: url("../img/home-background-hero-scaled.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 900px;
@@ -127,6 +127,10 @@ body {
 .site_main .popular .order button i {
   color: white;
 }
+.site_main .burger_pic {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .site_main .burger_pic img {
   width: 100%;
 }
@@ -161,7 +165,7 @@ body {
 .site_main .pics_menu .first_row .ape img, .site_main .pics_menu .first_row .burg img, .site_main .pics_menu .first_row .pizza img, .site_main .pics_menu .first_row .fri img {
   overflow: hidden;
   width: calc(100% - 20px);
-  filter: brightness(0.5);
+  filter: brightness(0.7);
 }
 .site_main .pics_menu .first_row .ape .testo p, .site_main .pics_menu .first_row .burg .testo p, .site_main .pics_menu .first_row .pizza .testo p, .site_main .pics_menu .first_row .fri .testo p {
   color: white;
@@ -182,7 +186,7 @@ body {
 .site_main .pics_menu .second_row .side img, .site_main .pics_menu .second_row .dessert img, .site_main .pics_menu .second_row .bev img, .site_main .pics_menu .second_row .specials img {
   overflow: hidden;
   width: calc(100% - 20px);
-  filter: brightness(0.5);
+  filter: brightness(0.7);
 }
 .site_main .pics_menu .second_row .side .testo p, .site_main .pics_menu .second_row .dessert .testo p, .site_main .pics_menu .second_row .bev .testo p, .site_main .pics_menu .second_row .specials .testo p {
   color: white;
@@ -225,7 +229,7 @@ body {
   padding: 10px;
 }
 .site_main .order_pics {
-  background-image: url(/dist/img/app-ordering-scaled.jpg);
+  background-image: url("../img/app-ordering-scaled.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 100px;
@@ -279,6 +283,9 @@ body {
 }
 .site_main .show img {
   width: calc(100% - 40px);
+}
+.site_main .show img:hover {
+  filter: brightness(0.5);
 }
 .site_main .show h1 {
   text-align: center;
