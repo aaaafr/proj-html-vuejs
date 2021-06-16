@@ -127,3 +127,168 @@ body {
 .site_main .popular .order button i {
   color: white;
 }
+.site_main .burger_pic img {
+  width: 100%;
+}
+.site_main .category {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.site_main .category button {
+  background-color: #CE1A26;
+  border-style: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 12px;
+  border-radius: 20px;
+}
+.site_main .category button a {
+  text-decoration: none;
+  color: white;
+}
+.site_main .category button i {
+  color: white;
+}
+.site_main .pics_menu .first_row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 30px;
+}
+.site_main .pics_menu .first_row .ape, .site_main .pics_menu .first_row .burg, .site_main .pics_menu .first_row .pizza, .site_main .pics_menu .first_row .fri {
+  position: relative;
+}
+.site_main .pics_menu .first_row .ape img, .site_main .pics_menu .first_row .burg img, .site_main .pics_menu .first_row .pizza img, .site_main .pics_menu .first_row .fri img {
+  overflow: hidden;
+  width: calc(100% - 20px);
+  filter: brightness(0.5);
+}
+.site_main .pics_menu .first_row .ape .testo p, .site_main .pics_menu .first_row .burg .testo p, .site_main .pics_menu .first_row .pizza .testo p, .site_main .pics_menu .first_row .fri .testo p {
+  color: white;
+  position: absolute;
+  left: 30%;
+  bottom: 50%;
+  font-weight: 700;
+}
+.site_main .pics_menu .second_row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 30px;
+}
+.site_main .pics_menu .second_row .side, .site_main .pics_menu .second_row .dessert, .site_main .pics_menu .second_row .bev, .site_main .pics_menu .second_row .specials {
+  position: relative;
+}
+.site_main .pics_menu .second_row .side img, .site_main .pics_menu .second_row .dessert img, .site_main .pics_menu .second_row .bev img, .site_main .pics_menu .second_row .specials img {
+  overflow: hidden;
+  width: calc(100% - 20px);
+  filter: brightness(0.5);
+}
+.site_main .pics_menu .second_row .side .testo p, .site_main .pics_menu .second_row .dessert .testo p, .site_main .pics_menu .second_row .bev .testo p, .site_main .pics_menu .second_row .specials .testo p {
+  color: white;
+  position: absolute;
+  left: 30%;
+  bottom: 50%;
+  font-weight: 700;
+}
+.site_main .pics_menu .third_row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 30px;
+}
+.site_main .pics_menu .third_row .veggie, .site_main .pics_menu .third_row .gluten, .site_main .pics_menu .third_row .milk, .site_main .pics_menu .third_row .keto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.site_main .pics_menu .third_row .veggie i, .site_main .pics_menu .third_row .gluten i, .site_main .pics_menu .third_row .milk i, .site_main .pics_menu .third_row .keto i {
+  font-size: 50px;
+  padding: 10px;
+}
+.site_main .pics_menu .third_row .veggie #plant, .site_main .pics_menu .third_row .gluten #plant, .site_main .pics_menu .third_row .milk #plant, .site_main .pics_menu .third_row .keto #plant {
+  color: #66A83C;
+}
+.site_main .pics_menu .third_row .veggie #bread, .site_main .pics_menu .third_row .gluten #bread, .site_main .pics_menu .third_row .milk #bread, .site_main .pics_menu .third_row .keto #bread {
+  color: #FFC519;
+}
+.site_main .pics_menu .third_row .veggie #cheese, .site_main .pics_menu .third_row .gluten #cheese, .site_main .pics_menu .third_row .milk #cheese, .site_main .pics_menu .third_row .keto #cheese {
+  color: #44A2EA;
+}
+.site_main .pics_menu .third_row .veggie #meat, .site_main .pics_menu .third_row .gluten #meat, .site_main .pics_menu .third_row .milk #meat, .site_main .pics_menu .third_row .keto #meat {
+  color: #B47A4B;
+}
+.site_main .pics_menu .third_row .veggie p, .site_main .pics_menu .third_row .gluten p, .site_main .pics_menu .third_row .milk p, .site_main .pics_menu .third_row .keto p {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+}
+.site_main .order_pics {
+  background-image: url(/dist/img/app-ordering-scaled.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+}
+.site_main .order_pics .download {
+  padding-top: 100px;
+  padding-bottom: 140px;
+}
+.site_main .order_pics .download h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+}
+.site_main .order_pics .download h1 {
+  color: #FCDC31;
+  font-size: 70px;
+  font-weight: 600;
+}
+.site_main .order_pics .download .app {
+  display: flex;
+}
+.site_main .order_pics .download .app img {
+  width: 150px;
+  padding-top: 30px;
+  padding-right: 10px;
+}
+.site_main .news {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.site_main .news button {
+  background-color: #CE1A26;
+  border-style: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 12px;
+  border-radius: 20px;
+}
+.site_main .news button a {
+  text-decoration: none;
+  color: white;
+}
+.site_main .news button i {
+  color: white;
+}
+.site_main .show {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 30px;
+}
+.site_main .show img {
+  width: calc(100% - 40px);
+}
+.site_main .show h1 {
+  text-align: center;
+  width: calc(100% - 40px);
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.site_main .show p {
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
+  width: calc(100% - 40px);
+}

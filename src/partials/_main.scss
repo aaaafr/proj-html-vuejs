@@ -64,4 +64,228 @@
         }
     }
 
+     .burger_pic {
+    //         height: 300px;
+    //         width: 300px;
+    //         background: lightgray;
+    //         position: relative;
+    //         border-bottom: 5px solid black;
+    //         border-right: 5px solid black;
+            img{
+                width: 100%;
+             }
+    }
+
+    .category {
+        margin-top:50px;
+        display: flex;
+        justify-content: space-between;
+        
+        h1{
+
+        }
+        button{
+            background-color:$header_button;
+            border-style: none;
+            padding: 10px 20px 10px 20px;
+            font-size: 12px;
+            border-radius: 20px;
+
+            a{
+                text-decoration: none;
+                color:$header_white;
+            }
+            i{
+                color:$header_white;
+            }
+        }
+
+    }
+
+    .pics_menu{
+        
+        .first_row{
+            display:flex;
+            justify-content: center;
+            width:100%;
+            padding-top: 30px;
+            
+            .ape, .burg , .pizza , .fri {
+                position:relative;
+                img{
+                    overflow:hidden;
+                    width: calc(100% - 20px);
+                    filter:brightness(0.5);
+
+                }
+                .testo{
+                    p{
+                        color:$header_white;
+                        position:absolute;
+                        left: 30%;
+                        bottom: 50%;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+        .second_row{
+            display:flex;
+            justify-content: center;
+            width:100%;
+            padding-top: 30px;
+
+            .side, .dessert , .bev , .specials {
+                position:relative;
+                img{
+                    overflow:hidden;
+                    width: calc(100% - 20px);
+                    filter:brightness(0.5);
+                }
+                .testo{
+                    p{
+                        color:$header_white;
+                        position:absolute;
+                        left: 30%;
+                        bottom: 50%;
+                        font-weight: 700;
+                    }
+                }
+            }
+
+
+        }
+        .third_row{
+            display:flex;
+            justify-content: space-around;
+            width:100%;
+            padding-top: 30px;
+
+            .veggie, .gluten, .milk, .keto{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+                i {
+                    font-size: 50px;
+                    padding:10px;
+                }
+                #plant{
+                    color:$veggie_color;
+                }
+                #bread{
+                    color:$gluten_color;
+                }
+                #cheese{
+                    color:$diary_color;
+                }
+                #meat{
+                    color:$keto_color;
+                }
+                p{
+                    font-size: 20px;
+                    font-weight: 600;
+                    padding: 10px;
+        
+                }
+            }
+            
+        }
+    }
+
+    .order_pics{
+        background-image: url(/dist/img/app-ordering-scaled.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 100px;
+        .download{
+            padding-top:100px;
+            padding-bottom: 140px;
+            h3{
+                color:$header_white;
+                font-size: 30px;
+                font-weight: 400;
+            }
+            h1{
+                color:$header_title;
+                font-size: 70px;
+                font-weight: 600;
+            }
+            .app{
+                display: flex;
+                img{
+                    width: 150px;
+                    padding-top: 30px;
+                    padding-right: 10px;
+                }
+               
+                
+            }
+        }
+    }
+
+    .news{
+        margin-top:50px;
+        display: flex;
+        justify-content: space-between;
+        
+        h1{
+
+        }
+        button{
+            background-color:$header_button;
+            border-style: none;
+            padding: 10px 20px 10px 20px;
+            font-size: 12px;
+            border-radius: 20px;
+
+            a{
+                text-decoration: none;
+                color:$header_white;
+            }
+            i{
+                color:$header_white;
+            }
+        }
+    }
+
+    .show{
+        display: flex;
+        justify-content: center;
+        width:100%;
+        padding-top: 30px;
+        img{
+            width: calc(100% - 40px);
+        }
+        h1{
+           text-align: center; 
+           width: calc(100% - 40px);
+           padding-top:30px;
+           padding-bottom:10px;
+        }
+        p{
+            font-size:  15px;
+            font-weight: 300;
+            text-align: center;  
+            width: calc(100% - 40px);
+        }
+    }
+    // .burger_pic:after {
+    //         content: "";
+    //         position: absolute;
+    //         height: 100%;
+    //         width: 100%;
+    //         border: 3px solid transparent;
+    //         border-bottom-color: black;
+    //         top: -5px;
+    //         left: 50%;
+    //         border-radius: 50%;
+    //         transform: rotate(45deg);
+        
+    // }
+
+
+
+
 }
