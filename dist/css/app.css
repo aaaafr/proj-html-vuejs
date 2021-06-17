@@ -299,3 +299,45 @@ body {
   text-align: center;
   width: calc(100% - 40px);
 }
+
+.site_footer {
+  background-image: url("../img/footer-background-scaled.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+  margin-top: 150px;
+}
+.site_footer .footer_nav {
+  display: flex;
+  justify-content: space-around;
+}
+.site_footer .footer_nav .link_nav ul:nth-child(2) {
+  color: yellow;
+}
+.site_footer .footer_nav .week span {
+  color: yellow;
+}
+.site_footer .footer_nav ul {
+  color: white;
+  list-style: none;
+}
+.site_footer .footer_nav .app_footer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.site_footer .footer_nav .app_footer img {
+  width: 150px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.site_footer .footer_nav .discount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.site_footer .footer_nav .discount .pic_scount img {
+  width: 130px;
+}

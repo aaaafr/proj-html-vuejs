@@ -1,0 +1,53 @@
+.site_footer {
+    background-image: url('../img/footer-background-scaled.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:1000px;
+    margin-top:150px;
+
+    .footer_nav {
+        display: flex;
+        justify-content: space-around;
+        .link_nav{
+            ul:nth-child(2){
+                color:yellow
+            }
+        }
+
+        .week {
+            span{
+                color:yellow;
+            }
+        }
+
+        ul{
+            color:white;
+            list-style: none;
+        }
+        .app_footer{
+            display: flex;
+            flex-direction: column;
+            padding-top:10px;
+            img{
+                width:150px;
+                border: 1px solid white;
+                border-radius: 10px;
+                margin-top:10px;
+                
+            }
+        }
+        .discount{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .pic_scount {
+                img{
+                    width: 130px;
+                }
+            }
+        }
+
+    }
+
+}

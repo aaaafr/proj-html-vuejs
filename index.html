@@ -183,7 +183,47 @@
 
     </main>
     <footer class="site_footer">
-        <div id="root"></div>
+        <div id="root">
+            <div class="footer_nav">
+                <div class="order">
+                    <ul v-for="plate in plates">
+                        <li>{{plate.nome}}</li>
+                    </ul>
+                </div>
+                <div class="link_nav">
+                    <ul v-for="link in navigate">
+                        <li>{{link.nome}}</li>
+                    </ul>
+                </div>
+                <div class="infos">
+                    <ul v-for="help in info">
+                        <li>{{help.nome}}</li>
+                    </ul>
+                    <div class="app_footer">
+                        <img src="./dist/img/app-store-badge.png" alt="">
+                        <img src="./dist/img/play-store-badge.png" alt="">
+                    </div>
+                </div>
+                <div class="week">
+                    <ul v-for='day in days'>
+                        <li>{{day.nome}} <span> {{day.hour}}</span></li>
+                    </ul>
+                </div>
+                <div class="discount">
+                    <ul v-for='voucher in vouch'>
+                        <li>{{voucher.nome}}</li>
+                    </ul>
+                    <div class="pic_scount">
+                        <img src="./dist/img/footer-coupon-200x200.png" alt="" class="">
+                    </div>
+                    <div class="code">
+                        <p>JustUse The Code</p>
+                        <h5>FIRSTORDER</h5>
+                        <p>AtCheckout</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </footer>
       <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
