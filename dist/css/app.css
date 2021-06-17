@@ -167,6 +167,8 @@ body {
 }
 .site_main .popular h1 {
   padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 40px;
 }
 .site_main .popular .pics {
   display: flex;
@@ -213,11 +215,12 @@ body {
 }
 .site_main .popular .pics h4 {
   padding: 10px;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 25px;
+  font-weight: 400;
 }
 .site_main .popular .pics p {
   color: #CE1A26;
+  font-size: 15px;
 }
 .site_main .popular .pics p span {
   color: black;
@@ -262,6 +265,9 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.site_main .category h1 {
+  font-size: 40px;
+}
 .site_main .category button:hover {
   width: 250px;
   background-color: #FCDC31;
@@ -278,7 +284,7 @@ body {
   border-style: none;
   padding: 10px 20px 10px 20px;
   font-size: 12px;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 .site_main .category button a {
   text-decoration: none;
@@ -411,9 +417,13 @@ body {
   padding-right: 10px;
 }
 .site_main .news {
-  margin-top: 50px;
+  margin-top: 100px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
+}
+.site_main .news h1 {
+  font-size: 40px;
 }
 .site_main .news button:hover {
   width: 250px;
@@ -431,7 +441,7 @@ body {
   border-style: none;
   padding: 10px 20px 10px 20px;
   font-size: 12px;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 .site_main .news button a {
   text-decoration: none;
