@@ -19,23 +19,90 @@ body {
   background-repeat: no-repeat;
   height: 900px;
 }
+.site_header .plus {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+  padding-right: 10px;
+}
+.site_header .plus button {
+  border-style: none;
+  background: red;
+  color: white;
+  border-radius: 100%;
+  font-size: 10px;
+  padding: 20px;
+}
 .site_header .site_menu {
-  padding-top: 30px;
   display: flex;
   justify-content: space-between;
 }
-.site_header .site_menu .navbar {
-  display: flex;
+.site_header .site_menu .navbar ul :first-child {
+  color: #FCDC31;
 }
 .site_header .site_menu .navbar ul {
-  color: aliceblue;
+  display: flex;
+  color: white;
   list-style: none;
 }
 .site_header .site_menu .navbar ul li {
   padding: 20px;
 }
+.site_header .site_menu .navbar ul li i {
+  font-size: 15x;
+}
+.site_header .site_menu .navbar ul li #white {
+  color: white;
+}
+.site_header .white_button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+.site_header .white_button .demos {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.site_header .white_button .demos button {
+  border-style: none;
+  background-color: white;
+  color: #33475B;
+  font-size: 20px;
+}
+.site_header .white_button .demos p {
+  font-size: 10px;
+  color: #33475B;
+}
+.site_header .white_button .dollar {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.site_header .white_button .dollar button {
+  border-style: none;
+  background-color: white;
+  color: #84CA96;
+  font-size: 20px;
+}
+.site_header .white_button .dollar p {
+  font-size: 10px;
+  color: #33475B;
+}
 .site_header .title {
-  padding-top: 150px;
+  padding-top: 30px;
 }
 .site_header .title h3 {
   color: white;
@@ -298,6 +365,7 @@ body {
   font-weight: 300;
   text-align: center;
   width: calc(100% - 40px);
+  color: #5B5F67;
 }
 
 .site_footer {
@@ -310,16 +378,25 @@ body {
 .site_footer .footer_nav {
   display: flex;
   justify-content: space-around;
+  padding-top: 70px;
 }
-.site_footer .footer_nav .link_nav ul:nth-child(2) {
-  color: yellow;
-}
-.site_footer .footer_nav .week span {
-  color: yellow;
+.site_footer .footer_nav ul :first-child {
+  padding-bottom: 20px;
+  font-weight: 900;
 }
 .site_footer .footer_nav ul {
   color: white;
   list-style: none;
+}
+.site_footer .footer_nav ul li {
+  padding-bottom: 10px;
+  font-weight: 300;
+}
+.site_footer .footer_nav .link_nav li:nth-child(2) {
+  color: #FCDC31;
+}
+.site_footer .footer_nav .week span {
+  color: #FCDC31;
 }
 .site_footer .footer_nav .app_footer {
   display: flex;
@@ -335,9 +412,83 @@ body {
 .site_footer .footer_nav .discount {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 .site_footer .footer_nav .discount .pic_scount img {
   width: 130px;
+}
+.site_footer .footer_nav .discount .code {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.site_footer .footer_nav .discount .code p {
+  color: white;
+}
+.site_footer .footer_nav .discount .code h5 {
+  color: #FCDC31;
+  font-size: 20px;
+}
+.site_footer .sign .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.site_footer .sign h1 {
+  text-align: center;
+  color: #FCDC31;
+  padding-top: 50px;
+  font-size: 40px;
+}
+.site_footer .sign p {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-weight: 300;
+}
+.site_footer .sign .inp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.site_footer .sign .inp input {
+  width: 50%;
+  padding: 15px;
+  border-style: none;
+  border-radius: 20px;
+}
+.site_footer .sign .inp button {
+  background-color: #CE1A26;
+  color: white;
+  border-style: none;
+  padding: 15px;
+  font-size: 12px;
+  border-radius: 20px;
+  width: 50%;
+  margin-top: 20px;
+  font-weight: 800;
+}
+.site_footer .sign .soci {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.site_footer .sign .soci ul {
+  display: flex;
+  list-style: none;
+  font-size: 15px;
+  color: white;
+}
+.site_footer .sign .soci ul li {
+  padding-left: 20px;
+}
+.site_footer .sign #copyright {
+  font-size: 10px;
+  font-weight: 800;
+}
+.site_footer .sign #copyright span {
+  color: #FCDC31;
 }

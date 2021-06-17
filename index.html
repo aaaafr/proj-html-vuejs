@@ -12,17 +12,35 @@
 </head>
 <body>
     <header class="site_header">
+        <div class="plus">
+            <button><i class="fas fa-plus"></i></button>
+        </div>
         <div class="container">
             <div class="site_menu">
                 <div class="logo">
                     <img src="./dist/img/takeout-logo-2x-200x43.png" alt="" >
                 </div>
                 <div class="navbar" id="app">
-                    <ul v-for="(nav,index) in navbar">
-                        <li>{{nav.link}}</li>
+                    <ul>
+                        <li>Home <i class="fas fa-chevron-down"></i></li>
+                        <li v-for="(nav,index) in navbar">{{nav.link}}</li>
+                        <li><i id="white" class="fas fa-shopping-cart"></i></li>
+
                     </ul>
                 </div>
             </div>
+        </div>
+        <div class="white_button">
+            <div class="demos">
+                <button><i class="fas fa-folder-open"></i></button>
+                <p>Demos</p>
+            </div>
+            <div class="dollar">
+                <button><i class="fas fa-dollar-sign"></i>39</button>
+                <p>On Sale</p>
+            </div>
+        </div> 
+        <div class="container">
             <div class="title">
                 <h3>
                     Hungry?
@@ -186,18 +204,18 @@
         <div id="root">
             <div class="footer_nav">
                 <div class="order">
-                    <ul v-for="plate in plates">
-                        <li>{{plate.nome}}</li>
+                    <ul>
+                        <li v-for="plate in plates">{{plate.nome}}</li>
                     </ul>
                 </div>
                 <div class="link_nav">
-                    <ul v-for="link in navigate">
-                        <li>{{link.nome}}</li>
+                    <ul>
+                        <li v-for="link in navigate">{{link.nome}}</li>
                     </ul>
                 </div>
                 <div class="infos">
-                    <ul v-for="help in info">
-                        <li>{{help.nome}}</li>
+                    <ul>
+                        <li v-for="help in info">{{help.nome}}</li>
                     </ul>
                     <div class="app_footer">
                         <img src="./dist/img/app-store-badge.png" alt="">
@@ -205,13 +223,13 @@
                     </div>
                 </div>
                 <div class="week">
-                    <ul v-for='day in days'>
-                        <li>{{day.nome}} <span> {{day.hour}}</span></li>
+                    <ul>
+                        <li v-for='day in days'>{{day.nome}} <span> {{day.hour}}</span></li>
                     </ul>
                 </div>
                 <div class="discount">
-                    <ul v-for='voucher in vouch'>
-                        <li>{{voucher.nome}}</li>
+                    <ul>
+                        <li v-for='voucher in vouch'>{{voucher.nome}}</li>
                     </ul>
                     <div class="pic_scount">
                         <img src="./dist/img/footer-coupon-200x200.png" alt="" class="">
@@ -224,9 +242,46 @@
                 </div>
             </div>
         </div>
+        <div class="sign">
+            <div class="logo">
+                <img src="./dist/img/takeout-logo.png"  alt="">
+            </div>
+            <h1>Stay In The Loop</h1>
+            <p>
+                Sign Up to receive up to date 
+                news and offers directly in your inbox:
+            </p>
+            <div class="inp">
+                <input type="email" placeholder="you@email.com" name="email" id="email">
+                <button>SUBSCRIBE</button>
+            </div>
+            <div class="soci">
+                <ul>
+                    <li><i class="fab fa-facebook-f"></i></li>
+                    <li> <i class="fab fa-twitter"></i></li>
+                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i class="fab fa-linkedin-in"></i></li>
+                    <li> <i class="fas fa-rss"></i></li>
+                    <li><i class="fab fa-youtube"></i></li>
+                    <li><i class="far fa-envelope"></i></li>
+                </ul>
+            </div>
+            <p id="copyright"><i class="far fa-copyright"></i> Copyright 2012-2020 | Avada Theme by <span>ThemeFusion</span> | All Rights Reserved | Powered by <span>WordPress</span></p>
+        </div>
 
     </footer>
       <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
     <script src="./dist/js/app.js"></script>
 </body>
 </html>
+
+
+
+<!-- <div class="white_button">
+    <div class="demos">
+        <button><i class="fas fa-folder-open"></i>Demos</button>
+    </div>
+    <div class="dollar">
+        <button><i class="fas fa-dollar-sign"></i>On Sale</button>
+    </div>
+</div> -->

@@ -8,29 +8,40 @@
     .footer_nav {
         display: flex;
         justify-content: space-around;
+        padding-top: 70px;
+        ul :first-child{
+            padding-bottom: 20px;
+             font-weight: 900;
+        }
+
+        ul{
+            color:$header_white;
+            list-style: none;
+            li{
+                padding-bottom:10px;
+                font-weight: 300;
+            }
+        }
+
         .link_nav{
-            ul:nth-child(2){
-                color:yellow
+            li:nth-child(2){
+                color:$header_title;
             }
         }
 
         .week {
             span{
-                color:yellow;
+                color:$header_title;
             }
         }
-
-        ul{
-            color:white;
-            list-style: none;
-        }
+        
         .app_footer{
             display: flex;
             flex-direction: column;
             padding-top:10px;
             img{
                 width:150px;
-                border: 1px solid white;
+                border: 1px solid $header_white;
                 border-radius: 10px;
                 margin-top:10px;
                 
@@ -39,15 +50,94 @@
         .discount{
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
             .pic_scount {
                 img{
                     width: 130px;
                 }
             }
+            .code {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                p{
+                    color:$header_white
+                }
+                h5{
+                    color:$header_title;
+                    font-size: 20px;
+                }
+            }
         }
 
+    }
+
+    .sign {
+        .logo
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+        }
+        h1{
+            text-align: center;
+            color:$header_title;
+            padding-top: 50px;
+            font-size: 40px;
+        }
+        p{
+            text-align: center;
+            color:$header_white;
+            padding:20px;
+            font-weight: 300;  
+        }
+        .inp{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            input{
+                width: 50%;
+                padding: 15px;
+                border-style: none;
+                border-radius: 20px;
+            }
+            button{
+                background-color:$header_button;
+                color:$header_white;
+                border-style: none;
+                padding: 15px;
+                font-size: 12px;
+                border-radius: 20px;
+                width: 50%;
+                margin-top: 20px;
+                font-weight: 800;
+            }
+        }
+        .soci{
+            display: flex;
+            justify-content: center;
+            padding-top:40px;
+            ul {
+                display: flex;
+                list-style: none;
+                font-size:15px;
+                color:$header_white;
+                li{
+                    padding-left:20px;
+                }
+            }
+            
+        }
+       #copyright {
+           font-size: 10px;
+           font-weight: 800;
+            span{
+                color:$header_title;
+            }
+        }
     }
 
 }
