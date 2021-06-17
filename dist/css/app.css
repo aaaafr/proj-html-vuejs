@@ -120,6 +120,17 @@ body {
 .site_header .title .button {
   padding-top: 40px;
 }
+.site_header .title .button button:hover {
+  width: 250px;
+  background-color: #FCDC31;
+}
+.site_header .title .button button:hover a {
+  color: black;
+  font-weight: 900;
+}
+.site_header .title .button button:hover i {
+  color: black;
+}
 .site_header .title .button button {
   background-color: #CE1A26;
   border-style: none;
@@ -163,6 +174,40 @@ body {
   width: 100%;
   padding-top: 30px;
 }
+.site_main .popular .pics .fries, .site_main .popular .pics .frappe, .site_main .popular .pics .donut {
+  position: relative;
+}
+.site_main .popular .pics .fries:hover, .site_main .popular .pics .frappe:hover, .site_main .popular .pics .donut:hover {
+  cursor: pointer;
+}
+.site_main .popular .pics .fries:hover .cart, .site_main .popular .pics .frappe:hover .cart, .site_main .popular .pics .donut:hover .cart {
+  visibility: visible;
+  font-size: 15px;
+}
+.site_main .popular .pics .cart {
+  visibility: hidden;
+  position: absolute;
+  transition: height 0.2s;
+  width: 100%;
+  height: 87%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.308);
+}
+.site_main .popular .pics .cart i {
+  font-size: 40px;
+  padding: 10px;
+  margin: 5px;
+  background-color: black;
+  border-radius: 100%;
+  color: white;
+}
+.site_main .popular .pics .cart p {
+  color: white;
+  font-size: 20px;
+}
 .site_main .popular .pics img {
   width: calc(100% - 20px);
 }
@@ -179,6 +224,17 @@ body {
 }
 .site_main .popular .order {
   padding-top: 40px;
+}
+.site_main .popular .order button:hover {
+  width: 250px;
+  background-color: #FCDC31;
+}
+.site_main .popular .order button:hover a {
+  color: black;
+  font-weight: 900;
+}
+.site_main .popular .order button:hover i {
+  color: black;
 }
 .site_main .popular .order button {
   background-color: #CE1A26;
@@ -205,6 +261,17 @@ body {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
+}
+.site_main .category button:hover {
+  width: 250px;
+  background-color: #FCDC31;
+}
+.site_main .category button:hover a {
+  color: black;
+  font-weight: 900;
+}
+.site_main .category button:hover i {
+  color: black;
 }
 .site_main .category button {
   background-color: #CE1A26;
@@ -241,6 +308,10 @@ body {
   bottom: 50%;
   font-weight: 700;
 }
+.site_main .pics_menu .first_row .ape .testo p:hover, .site_main .pics_menu .first_row .burg .testo p:hover, .site_main .pics_menu .first_row .pizza .testo p:hover, .site_main .pics_menu .first_row .fri .testo p:hover {
+  color: #FCDC31;
+  font-size: 20px;
+}
 .site_main .pics_menu .second_row {
   display: flex;
   justify-content: center;
@@ -262,6 +333,10 @@ body {
   bottom: 50%;
   font-weight: 700;
 }
+.site_main .pics_menu .second_row .side .testo p:hover, .site_main .pics_menu .second_row .dessert .testo p:hover, .site_main .pics_menu .second_row .bev .testo p:hover, .site_main .pics_menu .second_row .specials .testo p:hover {
+  color: #FCDC31;
+  font-size: 20px;
+}
 .site_main .pics_menu .third_row {
   display: flex;
   justify-content: space-around;
@@ -281,14 +356,26 @@ body {
 .site_main .pics_menu .third_row .veggie #plant, .site_main .pics_menu .third_row .gluten #plant, .site_main .pics_menu .third_row .milk #plant, .site_main .pics_menu .third_row .keto #plant {
   color: #66A83C;
 }
+.site_main .pics_menu .third_row .veggie #plant:hover, .site_main .pics_menu .third_row .gluten #plant:hover, .site_main .pics_menu .third_row .milk #plant:hover, .site_main .pics_menu .third_row .keto #plant:hover {
+  color: #2e5813;
+}
 .site_main .pics_menu .third_row .veggie #bread, .site_main .pics_menu .third_row .gluten #bread, .site_main .pics_menu .third_row .milk #bread, .site_main .pics_menu .third_row .keto #bread {
   color: #FFC519;
+}
+.site_main .pics_menu .third_row .veggie #bread:hover, .site_main .pics_menu .third_row .gluten #bread:hover, .site_main .pics_menu .third_row .milk #bread:hover, .site_main .pics_menu .third_row .keto #bread:hover {
+  color: #fca709;
 }
 .site_main .pics_menu .third_row .veggie #cheese, .site_main .pics_menu .third_row .gluten #cheese, .site_main .pics_menu .third_row .milk #cheese, .site_main .pics_menu .third_row .keto #cheese {
   color: #44A2EA;
 }
+.site_main .pics_menu .third_row .veggie #cheese:hover, .site_main .pics_menu .third_row .gluten #cheese:hover, .site_main .pics_menu .third_row .milk #cheese:hover, .site_main .pics_menu .third_row .keto #cheese:hover {
+  color: #07385e;
+}
 .site_main .pics_menu .third_row .veggie #meat, .site_main .pics_menu .third_row .gluten #meat, .site_main .pics_menu .third_row .milk #meat, .site_main .pics_menu .third_row .keto #meat {
   color: #B47A4B;
+}
+.site_main .pics_menu .third_row .veggie #meat:hover, .site_main .pics_menu .third_row .gluten #meat:hover, .site_main .pics_menu .third_row .milk #meat:hover, .site_main .pics_menu .third_row .keto #meat:hover {
+  color: #633006;
 }
 .site_main .pics_menu .third_row .veggie p, .site_main .pics_menu .third_row .gluten p, .site_main .pics_menu .third_row .milk p, .site_main .pics_menu .third_row .keto p {
   font-size: 20px;
@@ -327,6 +414,17 @@ body {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
+}
+.site_main .news button:hover {
+  width: 250px;
+  background-color: #FCDC31;
+}
+.site_main .news button:hover a {
+  color: black;
+  font-weight: 900;
+}
+.site_main .news button:hover i {
+  color: black;
 }
 .site_main .news button {
   background-color: #CE1A26;

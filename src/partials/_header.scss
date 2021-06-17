@@ -62,6 +62,7 @@
             padding: 10px;
             border-radius:5px;
             margin-bottom:5px;
+            
             button{
                 border-style: none;
                 background-color:$header_white;
@@ -116,6 +117,18 @@
 
         .button{
             padding-top: 40px;
+
+            button:hover{
+                width: 250px;
+                background-color:$header_title;
+                a{
+                    color:black;
+                    font-weight:900;
+                }
+                i{
+                    color:black;
+                }
+            }
 
             button{
                 background-color:$header_button;

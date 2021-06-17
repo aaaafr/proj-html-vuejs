@@ -29,6 +29,40 @@
             justify-content: center;
             width:100%;
             padding-top: 30px;
+            .fries, .frappe, .donut{
+                position: relative;
+            }
+            .fries:hover, .frappe:hover, .donut:hover{
+                cursor: pointer;
+            }
+            .fries:hover .cart, .frappe:hover .cart, .donut:hover .cart{
+                visibility: visible;
+                font-size: 15px;
+            }
+            .cart {
+                visibility: hidden;
+                position: absolute;
+                transition: height .2s;
+                 width:100%;
+                height:87%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: rgba(0, 0, 0, 0.308);
+                i{
+                    font-size: 40px;
+                    padding: 10px;
+                    margin: 5px;
+                    background-color: black;
+                    border-radius: 100%;
+                    color: white;
+                }
+                p{
+                    color:white;
+                    font-size: 20px;
+                }
+            }
             img{
                 width: calc(100% - 20px);
             }
@@ -46,6 +80,17 @@
         }
         .order{
             padding-top: 40px;
+            button:hover{
+                width: 250px;
+                background-color:$header_title;
+                a{
+                    color:black;
+                    font-weight:900;
+                }
+                i{
+                    color:black;
+                }
+            }
             button{
                 background-color:$header_button;
                 border-style: none;
@@ -77,9 +122,17 @@
         margin-top:50px;
         display: flex;
         justify-content: space-between;
-        
-        h1{
 
+        button:hover{
+            width: 250px;
+            background-color:$header_title;
+            a{
+                color:black;
+                font-weight:900;
+            }
+            i{
+                color:black;
+            }
         }
         button{
             background-color:$header_button;
@@ -123,6 +176,10 @@
                         bottom: 50%;
                         font-weight: 700;
                     }
+                    p:hover{
+                        color:$header_title;
+                        font-size:20px;
+                    }
                 }
             }
         }
@@ -146,6 +203,10 @@
                         left: 30%;
                         bottom: 50%;
                         font-weight: 700;
+                    }
+                    p:hover{
+                        color:$header_title;
+                        font-size:20px;
                     }
                 }
             }
@@ -171,14 +232,26 @@
                 #plant{
                     color:$veggie_color;
                 }
+                #plant:hover{
+                    color:#2e5813;
+                }
                 #bread{
                     color:$gluten_color;
+                }
+                #bread:hover{
+                    color:#fca709;
                 }
                 #cheese{
                     color:$diary_color;
                 }
+                #cheese:hover{
+                    color:#07385e;
+                }
                 #meat{
                     color:$keto_color;
+                }
+                #meat:hover{
+                    color:#633006;
                 }
                 p{
                     font-size: 20px;
@@ -226,9 +299,16 @@
         margin-top:50px;
         display: flex;
         justify-content: space-between;
-        
-        h1{
-
+        button:hover{
+            width: 250px;
+            background-color:$header_title;
+            a{
+                color:black;
+                font-weight:900;
+            }
+            i{
+                color:black;
+            }
         }
         button{
             background-color:$header_button;
